@@ -11,8 +11,12 @@ The solution simulates a real-world use case where a telecom company generates C
 ## Key Features
 
 ✅ Automated extraction of periodic CSV files
+
 ✅ Data validation and rejection handling for invalid records
+
 ✅ Storage of valid records into a SQL Server database
+
+
 ✅ Rejected records logged into a dedicated rejection table with source file reference
 ✅ Generation of key metrics:
 
@@ -36,6 +40,10 @@ The solution simulates a real-world use case where a telecom company generates C
 ## Database Design
 
 The database includes:
+
 ✔ **Transaction Table** – Stores valid customer transactions
+
 ✔ **Rejection Table** – Stores invalid records with source file reference
+
 ✔ **File Log Table** – Tracks record counts and rejection statistics for each processed file
+
