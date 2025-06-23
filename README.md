@@ -1,6 +1,3 @@
-# SSIS ETL Telecom Usecase
-
-
 # Telecom ETL Project - SSIS Data Integration Solution
 
 ## Overview
